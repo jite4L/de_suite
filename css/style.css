@@ -502,8 +502,10 @@ select:focus {
 }
 
 .border-bottom{
+     border: none !important;
 	border-bottom: 1px solid #232d5788 !important;
 }
+
 
 
 
