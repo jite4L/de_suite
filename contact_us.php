@@ -1,3 +1,18 @@
+<?php
+include "confi.php";
+
+if (isset($_REQUEST["submit"])) {
+
+$fullname = $_REQUEST['fullname'];
+$email = $_REQUEST['email'];
+$number = $_REQUEST['number'];
+$message = $_REQUEST['message'];
+
+$inse = "INSERT INTO contacts (fullname, email, number, message ) VALUES ('$fullname','$email','$number','$message')";
+$query1 = mysqli_query($connection, $inse);
+}
+?>
+	
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,11 +34,9 @@
 	<!-- header -->
 	<header class="contact-us-site-header">
 		<!-- off canvas -->
-		<div class="offcanvas  offcanvas-start" tabindex="-1" id="offcanvasExample"
-			aria-labelledby="offcanvasExampleLabel">
+		<div class="offcanvas  offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
 			<div class="offcanvas-header">
-				<h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./images/Group 1.png" class="logo"
-						alt=""></h5>
+				<h5 class="offcanvas-title" id="offcanvasExampleLabel"><img src="./images/Group 1.png" class="logo" alt=""></h5>
 				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 			</div>
 			<div class="offcanvas-body">
@@ -183,8 +196,8 @@
 					<!-- col 1 -->
 					<div class="col-12 col-md-6 col-lg-6 mb-5">
 						<div class="mapouter">
-							<div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no"
-									marginheight="0" marginwidth="0"
+							<div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0"
+									marginwidth="0"
 									src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=trinity university yaba&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
 							</div>
 						</div>
@@ -192,21 +205,23 @@
 					<!-- /col 1 -->
 					<!-- col 2 -->
 					<div class="col-12 col-md-6 col-lg-6 px-5">
-						<h3 style="font-size: 24px; font-weight: 700; color: #232D57; margin-bottom:1.5rem;">KEEP IN
-							TOUCH</h3>
-						<form action="" method="">
-							<p class="mb-0 text-blue">Subject</p>
-							<input class=" form-control border-bottom mb-3  " type="text"
-								aria-label="Disabled input example">
+						<h3 style="font-size: 24px; font-weight: 700; color: #232D57; margin-bottom:1.5rem;">KEEP IN TOUCH</h3>
+						<form>
 							<p class="mb-0 text-blue">Full Name</p>
-							<input class=" form-control border-bottom mb-3 border-bottom-primary " type="text"
-								aria-label="Disabled input example">
+							<input name="fullname" class=" form-control border-bottom mb-3  " type="text" aria-label="Disabled input example">
 							<p class="mb-0 text-blue">Email</p>
-							<input class=" form-control border-bottom mb-3 border-bottom-primary " type="text"
+							<input name="email" class=" form-control border-bottom mb-3 border-bottom-primary " type="text"
+								aria-label="Disabled input example">
+							<p class="mb-0 text-blue">Phone Number</p>
+							<input name="number" class=" form-control border-bottom mb-3 border-bottom-primary " type="text"
 								aria-label="Disabled input example">
 							<p class="mb-0 text-blue">Leave a message</p>
-							<input class=" form-control border-bottom mb-3 border-bottom-primary " type="text"
+							<input name="message" class=" form-control border-bottom mb-3 border-bottom-primary " type="text"
 								aria-label="Disabled input example">
+
+								<button name="submit" type="submit" class=" ms-0 text-white second-btn  btn mt-4 btn-primary">
+                Send
+              </button>
 						</form>
 
 

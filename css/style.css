@@ -501,9 +501,10 @@ select:focus {
 	height: 400px !important;
 }
 
-.border-bottom{
-     border: none !important;
+.border-bottom {
+     border: none ;
 	border-bottom: 1px solid #232d5788 !important;
+	border-radius:0 ;
 }
 
 

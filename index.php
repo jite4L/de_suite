@@ -1,3 +1,24 @@
+<?php
+include "confi.php";
+
+if (isset($_REQUEST["submit"])) {
+    
+    $check_in = $_REQUEST["check_in"];
+    $nights = $_REQUEST["nights"];
+    $check_out = $_REQUEST["check_out"];
+    $adults = $_REQUEST["adults"];
+    $children = $_REQUEST["children"];
+
+    
+
+    $inse = "INSERT INTO booking (check_in, nights, check_out, adults, children) VALUES ('$check_in','$nights','$check_out','$adults','$children')";
+        $query1 = mysqli_query($connection, $inse);
+}
+?>
+
+
+
+
 <!DOCTYPE html>
 
 <html lang="en">
@@ -213,7 +234,7 @@
           <li class=" px-2">confirmation</li>
         </ul>
         <!-- laptop screen -->
-        <form  action="jite.php" method="POST">
+        <form>
           <div class="row mt-4  mx-1 ps-4 ms-2  d-none d-lg-flex">
             <div class=" col-2 ps-2 px-1">
               <label class="mb-1  select-font" for="birthday">Check In</label>
@@ -221,17 +242,17 @@
             </div>
             <div class="col-2  px-4">
               <p class="mb-1 ps-1 select-font">Night(s)</p>
-              <select class="form-select form-select-md   ps-3 " aria-label=".form-select-lg example">
+              <select name="nights" class="form-select form-select-md   ps-3 " aria-label=".form-select-lg example">
                 <option selected>1</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-                <option value="4">5</option>
-                <option value="4">6</option>
-                <option value="4">7</option>
-                <option value="4">8</option>
-                <option value="4">9</option>
-                <option value="4">10</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
 
               </select>
 
@@ -244,33 +265,33 @@
             </div>
             <div class="col-2  px-4">
               <p class="mb-1 ps-1 select-font">Adult(s)</p>
-              <select class="form-select form-select-md   ps-3 " aria-label=".form-select-lg example">
+              <select name="adults" class="form-select form-select-md   ps-3 " aria-label=".form-select-lg example">
                 <option selected>1</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-                <option value="4">5</option>
-                <option value="4">6</option>
-                <option value="4">7</option>
-                <option value="4">8</option>
-                <option value="4">9</option>
-                <option value="4">10</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
               </select>
 
             </div>
             <div class="col-2  px-4">
               <p class="mb-1 ps-1 select-font">children</p>
-              <select class="form-select form-select-md   ps-3 " aria-label=".form-select-lg example">
+              <select name="children" class="form-select form-select-md   ps-3 " aria-label=".form-select-lg example">
                 <option selected>1</option>
-                <option value="1">2</option>
-                <option value="2">3</option>
-                <option value="3">4</option>
-                <option value="4">5</option>
-                <option value="4">6</option>
-                <option value="4">7</option>
-                <option value="4">8</option>
-                <option value="4">9</option>
-                <option value="4">10</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
               </select>
 
             </div>
