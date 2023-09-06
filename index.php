@@ -103,7 +103,7 @@ if (isset($_REQUEST["submit"])) {
             </li>
 
           </ul>
-          <a class="btn ms-2 btn-primary" href="#" role="button">Book Now </a>
+          <a class="btn ms-2 btn-primary" href="./form.php" role="button">Book Now </a>
 
         </div>
       </div>
