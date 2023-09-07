@@ -1,85 +1,83 @@
 * {
-	padding: 0;
-	margin: 0;
-	
-	font-family: 'Montserrat', sans-serif;
-	/* outline: 2px solid red; */
+  padding: 0;
+  margin: 0;
+
+  font-family: 'Montserrat', sans-serif;
+  /* outline: 2px solid red; */
 }
-header {
+
+.hero-section {
   /* background-size: 200% 200%; */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image:linear-gradient(rgba(7, 5, 7, 0.637), rgba(10, 8, 10, 0.637)), url(../images/gerardo-mr-pQrXggKVvzI-unsplash.jpg);
-    height: 100vh;
-  
+  background-image: linear-gradient(rgba(7, 5, 7, 0.637), rgba(10, 8, 10, 0.637)), url(../images/gerardo-mr-pQrXggKVvzI-unsplash.jpg);
+  height: 100vh;
+
 }
-.img-size{
-	width:50% !important;
+.input-place:focus{
+	outline:3px solid rgba(255, 0, 0, 0.384) !important;
+}
+
+.img-size {
+  width: 50% !important;
   margin: 20px auto;
 }
 
 nav {
-width: 80%;
-padding: 1.5rem 2rem;
+  width: 80%;
+  padding: 1.5rem 2rem;
 }
 
- .hero-section{
-    
-    align-items: center;
-    justify-content: center;
-    /* height: 100vh; */
-    margin: 0;
-    /* font-family: Arial, sans-serif; */
-  }
-  .login-form {
-    width:300px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
-    border-radius: 25px;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-    color: white;
-    backdrop-filter: blur(10px);
-  }
- .input-place {
-    margin-top: 20px;
-    padding: 10px;
-    width: 250px;
-    border: none;
-    border-radius: 15px;
-    outline: none;
- 
+.hero-section {
+
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  margin: 0;
+  /* font-family: Arial, sans-serif; */
 }
-.logo {
-	width: 20%;
- background-color: transparent;
+
+.login-form {
+  width:300px ;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.input-place {
+  margin-top: 20px;
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 15px;
+  outline: none;
 
 }
 
-
-
-
-
-.login-button{
-    margin-top: 20px;
-    padding: 10px 20px;
-    border: none;
-    color: white;
-    background-color:  #FC715F;
-    cursor: pointer;
-    border-radius: 15px;
-    transition: 0.5s;
+.login-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  background-color: #FC715F;
+  cursor: pointer;
+  border-radius: 15px;
+  transition: 0.5s;
 }
 
- .login-button:hover {
-    background-color:#232D57;
-    
- }
- 
-  .hero-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-  }
+.login-button:hover {
+  background-color: #232D57;
+
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
