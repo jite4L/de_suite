@@ -28,6 +28,7 @@ nav {
 
 
 
+
 .btn-primary {
 	background-color: #FC715F;
 	border-radius: 10px;
@@ -155,7 +156,7 @@ nav {
 
 .section-three {
 	background-color: #e0e5f3;
-	height: 55vh;
+	/* height: 55vh; */
 	margin: 50px 0;
 }
 
@@ -370,10 +371,13 @@ select:focus {
 .six-spacin-two {
 	margin-right: 200px !important;
 }
-.btn-outline-success:hover{
+
+.btn-outline-success:hover {
 	background-color: #FC715F !important;
 
 }
+
+
 
 
 
@@ -474,7 +478,8 @@ select:focus {
 	background-repeat: none;
 
 }
-.about-color:hover{
+
+.about-color:hover {
 	color: #232D57 !important;
 }
 
@@ -500,9 +505,9 @@ select:focus {
 }
 
 .border-bottom {
-     border: none ;
+	border: none;
 	border-bottom: 1px solid #232d5788 !important;
-	border-radius:0 ;
+	border-radius: 0;
 }
 
 
@@ -722,13 +727,14 @@ select:focus {
 	.room-sub-title {
 		font-size: 15px !important;
 	}
+
 	.mapouter {
 		/* position: relative; */
 		text-align: right;
 		width: 330px;
 		height: 400px;
 	}
-	
+
 	.gmap_canvas {
 		overflow: hidden;
 		background: none !important;
@@ -736,7 +742,7 @@ select:focus {
 		margin-left: 10px;
 		height: 400px;
 	}
-	
+
 	.gmap_iframe {
 		width: 500px !important;
 		height: 400px !important;
@@ -1011,21 +1017,22 @@ select:focus {
 		height: 45vh;
 
 	}
+
 	.mapouter {
 		/* position: relative; */
 		text-align: right;
 		width: 400px !important;
 		height: 400px;
 	}
-	
+
 	.gmap_canvas {
 		overflow: hidden;
 		background: none !important;
-		width:390px;
+		width: 390px;
 		margin-left: 10px;
 		height: 380px;
 	}
-	
+
 	.gmap_iframe {
 		width: 500px !important;
 		height: 400px !important;
