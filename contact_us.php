@@ -42,20 +42,20 @@ if (isset($_REQUEST["submit"])) {
 
 				<ul class="navbar-nav  ">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+						<a class="nav-link active" aria-current="page" href="./index.php">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./rooms&rates.html">Rooms & Rates</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./contact_us.html">Contact Us</a>
+						<a class="nav-link" href="./contact_us.php">Contact Us</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Facilities</a>
 					</li>
 
 				</ul>
-				<a class="btn my-3 btn-primary" href="#" role="button">Book Now </a>
+				<a class="btn my-3 btn-primary" href="./form.php" role="button">Book Now </a>
 			</div>
 		</div>
 		<!-- /off canvas -->
@@ -69,20 +69,20 @@ if (isset($_REQUEST["submit"])) {
 				<div class=" justify-content-end collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav  pe-5 ">
 						<li class="nav-item px-1">
-							<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+							<a class="nav-link active" aria-current="page" href="./index.php">Home</a>
 						</li>
 						<li class="nav-item px-1">
 							<a class="nav-link" href="./rooms&rates.html">Rooms & Rates</a>
 						</li>
 						<li class="nav-item px-1">
-							<a class="nav-link" href="./contact_us.html">Contact Us</a>
+							<a class="nav-link" href="./contact_us.php">Contact Us</a>
 						</li>
 						<li class="nav-item px-1">
 							<a class="nav-link" href="#">Facilities</a>
 						</li>
 
 					</ul>
-					<a class="btn ms-2 btn-primary r-nav-button" href="#" role="button">Book Now </a>
+					<a class="btn ms-2 btn-primary r-nav-button" href="./form.php" role="button">Book Now </a>
 
 				</div>
 			</div>
@@ -352,28 +352,6 @@ if (isset($_REQUEST["submit"])) {
 	<script src="./js/bootstrap.min.js"></script>
 </body>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br><br>
-<br><br>
 
 </html>

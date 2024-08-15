@@ -17,8 +17,6 @@ if (isset($_REQUEST["submit"])) {
 ?>
 
 
-
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -37,12 +35,13 @@ if (isset($_REQUEST["submit"])) {
 
 	<link href="https://fonts.googleapis.com/css2?family=GFS+Didot&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<!-- <link rel="stylesheet" href="./css/style.css"> -->
-	
-	
+
+
+
+
 	<link rel="stylesheet" href="./css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
 	<link rel="stylesheet" href="./css/style.css">
-	<link rel="stylesheet" href="./stepper.scss">
+
 
 
 
@@ -68,20 +67,20 @@ if (isset($_REQUEST["submit"])) {
 
 				<ul class="navbar-nav  ">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+						<a class="nav-link active" aria-current="page" href="./index.hpp">Home</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="./rooms&rates.html">Rooms & Rates</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="./contact_us.html">Contact Us</a>
+						<a class="nav-link" href="./contact_us.php">Contact Us</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Facilities</a>
 					</li>
 
 				</ul>
-				<a class="btn my-3 btn-primary" href="#" role="button">Book Now </a>
+				<a class="btn my-3 btn-primary" href="./form.php" role="button">Book Now </a>
 			</div>
 		</div>
 
@@ -94,13 +93,13 @@ if (isset($_REQUEST["submit"])) {
 				<div class=" justify-content-end collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav  pe-5 ">
 						<li class="nav-item px-1">
-							<a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+							<a class="nav-link active" aria-current="page" href="./index.php">Home</a>
 						</li>
 						<li class="nav-item px-1">
 							<a class="nav-link" href="./rooms&rates.html">Rooms & Rates</a>
 						</li>
 						<li class="nav-item px-1">
-							<a class="nav-link" href="./contact_us.html">Contact Us</a>
+							<a class="nav-link" href="./contact_us.php">Contact Us</a>
 						</li>
 						<li class="nav-item px-1">
 							<a class="nav-link" href="#">Facilities</a>
@@ -368,7 +367,9 @@ if (isset($_REQUEST["submit"])) {
 				</div>
 			</div>
 		</div>
-	
+
+
+
 
 		<!-- laptop screen -->
 		<div class="section-four d-none d-lg-flex   ">
@@ -867,8 +868,9 @@ if (isset($_REQUEST["submit"])) {
 
 	<script src="./js/myscript.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
-	<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js></script>
-	<script src=https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js></script>
+	<script src="gh.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 
 
